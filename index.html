@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Picture with Frame</title>
+<script defer src="main.js"></script>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .picture-frame {
+    border: 10px solid #333;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+</style>
+</head>
+<body>
+  <div class="picture-frame">
+    <img src="" alt="Kitty">
+  </div>
+</body>
+</html>
